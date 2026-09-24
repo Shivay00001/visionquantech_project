@@ -15,7 +15,10 @@ class VisionQuantechProBuilder:
         self.root = root
         self.root.title("VisionQuantech Pro - Full Stack Website Builder")
         self.root.geometry("1400x900")
-        self.root.state('zoomed')
+        try:
+            self.root.state('zoomed')  # Windows-only; harmless elsewhere
+        except Exception:
+            pass
         
         # Core Variables
         self.primary_color = "#2563eb"
