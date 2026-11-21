@@ -1,5 +1,7 @@
 # VisionQuantech Project
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 **Desktop GUI app (tkinter)** — "VisionQuantech Pro" full-stack website builder, same family as `visionquantech_builder` / `visionquantech_exe_build`.
 
 ## Run
